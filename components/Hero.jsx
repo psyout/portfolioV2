@@ -7,7 +7,7 @@ import { RiBriefcase4Fill, RiTeamFill, RiTodoFill, RiArrowDownSLine } from 'reac
 // components
 import DevImg from './DevImg';
 import Badge from './Badge';
-import Socials from './Socials';
+// import Socials from './Socials';
 
 const Hero = () => {
 	return (
@@ -16,7 +16,7 @@ const Hero = () => {
 				<div className='flex justify-between gap-x-8'>
 					<div className='flex max-w-[700px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
 						<h4 className='text-sm uppercase font-semibold mb-4 text-primary tracking-[3px]'>Front-End Web Developer</h4>
-						<h1 className='h1 mb-4'>Hello, my name is Felipe </h1>
+						<h1 className='h1 mb-4'>Hello, my name is Felipe</h1>
 						<p className='subtitle max-w-[490px] mx-auto xl:mx-0'>Building simple and beautiful things for complex interfaces is what I enjoy most.</p>
 
 						{/* buttons */}
@@ -30,6 +30,7 @@ const Hero = () => {
 								Download Resume <Download size={18} />
 							</Button>
 						</div>
+						{/* <Socials containerStyles='flex gap-x-5 mx-auto xl:mx-0' iconsStyles='text-foreground text-[25px] hover:text-primary transition-all' /> */}
 					</div>
 					<div className='hidden xl:flex relative'>Image</div>
 				</div>
