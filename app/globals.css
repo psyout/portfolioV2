@@ -68,10 +68,26 @@
 	@apply text-muted-foreground text-5xl xl:text-[60px] xl:leading-[80px] tracking-[-2px] font-bold;
 }
 
+.h2 {
+	@apply text-4xl font-bold;
+}
+
+.h3 {
+	@apply text-3xl font-bold;
+}
+
+.h4 {
+	@apply text-[22px] font-semibold;
+}
+
 .logo {
 	@apply text-muted-foreground text-4xl xl:text-[40px] font-black;
 }
 
 .subtitle {
 	@apply text-muted-foreground text-lg mb-8 font-light;
+}
+
+.section-title {
+	@apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3;
 }
